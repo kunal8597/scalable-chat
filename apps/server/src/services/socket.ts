@@ -2,16 +2,16 @@ import { Server } from "socket.io";
 import { Redis } from "ioredis";
 
 const pub = new Redis({
-    host:'redis-23590578-kunalm8597-4f23.a.aivencloud.com',
-    port:20768,
+    host:'',
+    port:,
     username:'default',
-    password:'AVNS_UKkh4SwE9-0ounUWfSb'
+    password:''
 });
 const sub = new Redis({
-    host:'redis-23590578-kunalm8597-4f23.a.aivencloud.com',
-    port:20768,
-    username:'default',
-    password:'AVNS_UKkh4SwE9-0ounUWfSb'
+    host:'',
+    port: ,
+    username:'',
+    password:''
 
 });
 
