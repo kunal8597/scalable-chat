@@ -19,9 +19,6 @@ const sub = new Redis({
 
 
 
-
-
-
 class SocketService{
     private _io: Server;
 
